@@ -1,23 +1,91 @@
 P-2
+
+Using Packet Tracer, create a basic network of two computers using
+
+appropriate network wire through Static IP address allocation and verify
+
+connectivity.
+
+
 https://youtu.be/yYYqDgM1XqQ?si=8_vN3qfVNI9BE-EV
 
+
 P-3
+
+Using Packet Tracer, create a basic network of one server and two computers
+
+using appropriate network wire. Use Dynamic IP address allocation and show
+
+connectivity.
+
+
 https://youtu.be/Jnj8c_15AiE?si=xAjf-P3wHhV-JHWk
 
+
 P-4
+
+Using Packet Tracer, Create a basic network of two computerʼs using
+
+appropriate network wire. Use Static IP Address allocation and show
+
+connectivity
+
+
 https://youtu.be/zvBKvkY8-nA?si=EwExo071uewrQzWD
 
+
 P-5
+
+Using Packet Tracer to create a network with three routers with RIPv1 and
+
+each router associated network will have minimum three PC and show the
+
+connectivity.
+
+
 https://youtu.be/DLMpobkrDGw?si=lAXuh-TdHGgpBPrI
 
+
 P-6
+
+Using Packet Tracer to create a network with three routers with RIPv1
+
+and each router associated network will have minimum three PC and show
+
+the connectivity.
+
+
 https://youtu.be/qrBpjxSkZY8?si=ZZ0ZOWjf8ArittCC
 
+
 P-7
+
+Using Packet Tracer to create a network with three routers with RIPv1
+
+and each router associated network will have minimum three PC and show
+
+the connectivity.
+
+
 https://youtu.be/PVaQ3M-Jiq8?si=Kbi_flSUJDjfJtb6
 
+
 P-8
+
+Using Packet Tracer, create a network with three routers with
+
+BGP and each router associated network will have minimum three PC.
+
+Show Connectivity.
+
+
 https://youtu.be/fBEFfW-TWec?si=TjOnZRNDZsEFI_av
 
+
 P-9
+
+Using Packet Tracer, create a wireless network of multiple PCs using appropriate access point.
+
+
 https://youtu.be/c91hCh01DCA?si=DszZdYMup1kV5KZm
+
