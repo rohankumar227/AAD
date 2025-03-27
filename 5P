@@ -1,0 +1,65 @@
+HTML CODE:-
+
+<! DOCTYPE html>
+
+<html lang="en" ng-app="errorHandlingApp">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Error Handling in AngularJS</title>
+
+<script
+
+src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script> <script
+
+src="pract5.js"></script>
+
+</head>
+
+<body ng-controller="MainController as ctrl">
+
+<h1>AngularJS Error Handling Example</h1>
+
+<button ng-click="ctrl.fetchData()">Fetch Data</button> <p>{{ 
+
+ctrl.data }}</p>
+
+<div ng-if="ctrl.errorMessage" style="color: red;">
+
+<strong>Error:</strong> {{ ctrl.errorMessage }}
+
+</div>
+
+</body>
+
+</html>
+
+JAVASCRIPT CODE:-
+
+angular.module('errorHandlingApp', [])
+
+. controller('MainController', function($http)
+
+{ var vm = this; vm.data
+
+= ''; vm.errorMessage =
+
+'';
+
+vm.fetchData = function() {
+
+$http.get('https://jsonplaceholder.typicode.com/invalid-url')
+
+.then(function(response)
+
+{ vm.data = response.data;
+
+})
+
+.catch(function(error) { vm.errorMessage = 'Failed to fetch data. Please
+
+try again later.'; console.error('Error:', error);
+
+});
